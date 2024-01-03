@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""FIF0 caching module system.
+"""Last-In First-Out caching module.
 """
 from collections import OrderedDict
 
-from base_caching import BaseCachinig
+from base_caching import BaseCaching
 
 
 class LIFOCache(BaseCaching):
